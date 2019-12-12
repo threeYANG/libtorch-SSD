@@ -1,3 +1,0 @@
-/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/CMakeFiles/ssd-app.dir
