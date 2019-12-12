@@ -26,7 +26,7 @@ elif self.phase == "trace":
         output = torch.cat((loc.view(loc.size(0), -1, 4), self.softmax(conf.view(conf.size(0), -1, self.num_classes))), 2)
 ```
  ***3. python  ssd_trace.py***
-I release the pytorch models and traced models, you can try.
+I release the pytorch models **.pth**, trained on **voc data**  and traced models  **.pt**, you can [download](https://pan.baidu.com/s/1H4_xTkvdBqXRoA_CPJ6abA),   u46v
 
 ## Requirements
 1. LibTorch v1.0.0
