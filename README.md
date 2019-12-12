@@ -26,6 +26,7 @@ elif self.phase == "trace":
         output = torch.cat((loc.view(loc.size(0), -1, 4), self.softmax(conf.view(conf.size(0), -1, self.num_classes))), 2)
 ```
  ****3. python  ssd_trace.py****
+
 Get    traced models **ssd_voc.pt**  by  ****ssd_epoch_11_.pth**** 
  [download  models](https://pan.baidu.com/s/1H4_xTkvdBqXRoA_CPJ6abA),   u46v
 
