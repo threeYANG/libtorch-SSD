@@ -5,7 +5,7 @@ Download  [ssd.pytorch](https://github.com/amdegroot/ssd.pytorch) to train ssd.
 ## Requirements
 1. LibTorch v1.0.0
 2. Cuda
-3. OpenCV (just used in the example)
+3. OpenCV 
 
 ## Train SSD  Pytorch model
 I use [ssd.pytorch](https://github.com/amdegroot/ssd.pytorch) to train ssd and get a model, of course c++ code for detection_layer is also same to the pytorch code. <br/>
@@ -27,11 +27,6 @@ elif self.phase == "trace":
 ```
  ***3. python  ssd_trace.py***
 I release the pytorch models **.pth**, trained on **voc data**  and traced models  **.pt**, you can [download](https://pan.baidu.com/s/1H4_xTkvdBqXRoA_CPJ6abA),   u46v
-
-## Requirements
-1. LibTorch v1.0.0
-2. Cuda
-3. OpenCV (just used in the example)
 
 
 ## Running the  libtorch-ssd
