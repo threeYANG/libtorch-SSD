@@ -19,7 +19,7 @@ include_directories(${SSDInclude})
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${TORCH_CXX_FLAGS}")
 
-add_executable(ssd-app ssd-app.cpp ssd.cpp)
+add_executable(ssd-app main.cpp ssd.cpp)
 target_link_libraries(ssd-app "${TORCH_LIBRARIES}"  "${OpenCV_LIBRARIES}")
 set_property(TARGET ssd-app PROPERTY CXX_STANDARD 11)
 
