@@ -1,8 +1,14 @@
 import torch
 from ssd import build_ssd
-from data import VOC_CLASSES
 import torch.backends.cudnn as cudnn
 
+
+VOC_CLASSES = (  # always index 0
+    'aeroplane', 'bicycle', 'bird', 'boat',
+    'bottle', 'bus', 'car', 'cat', 'chair',
+    'cow', 'diningtable', 'dog', 'horse',
+    'motorbike', 'person', 'pottedplant',
+    'sheep', 'sofa', 'train', 'tvmonitor')
 
 # load net
 num_classes = len(VOC_CLASSES) + 1  # +1 background
@@ -17,5 +23,3 @@ cudnn.benchmark = True
 img = torch.rand(1, 3, 300, 300).cuda()
 resnet = torch.jit.trace(net, img)
 resnet.save('ssd_voc.pt')
-print('traced successful')
-
