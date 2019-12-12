@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ssd-app"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\3rdparty\;CMake Files\..\..\..\..\3rdparty\libtorch\;CMake Files\..\..\..\..\3rdparty\libtorch\share\;CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\;CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\Torch\;CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\Caffe2\;CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\Caffe2\public\;CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\;CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\;CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\..\usr\share\OpenCV\;CMake Files\cmake-build-debug\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ssd-app">
+				<Option output="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/ssd-app" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DAT_PARALLEL_OPENMP=1"/>
+					<Add directory="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/."/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/home/dl/3rdparty/libtorch/include"/>
+					<Add directory="/home/dl/3rdparty/libtorch/include/torch/csrc/api/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 ssd-app"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ssd-app/fast">
+				<Option output="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/ssd-app" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DAT_PARALLEL_OPENMP=1"/>
+					<Add directory="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/."/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/home/dl/3rdparty/libtorch/include"/>
+					<Add directory="/home/dl/3rdparty/libtorch/include/torch/csrc/api/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 ssd-app/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/ssd-app.cpp">
+			<Option target="ssd-app"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/ssd.cpp">
+			<Option target="ssd-app"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/ssd.hpp">
+			<Option target="ssd-app"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/../../../../3rdparty/libtorch/share/cmake/Torch/TorchConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\Torch\"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/../../../../3rdparty/libtorch/share/cmake/Torch/TorchConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\Torch\"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/../../../../3rdparty/libtorch/share/cmake/Caffe2/Caffe2Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/../../../../3rdparty/libtorch/share/cmake/Caffe2/Caffe2ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/../../../../3rdparty/libtorch/share/cmake/Caffe2/Caffe2Targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/../../../../3rdparty/libtorch/share/cmake/Caffe2/Caffe2Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/../../../../3rdparty/libtorch/share/cmake/Caffe2/public/cuda.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/../../../../3rdparty/libtorch/share/cmake/Caffe2/public/mkl.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/../../../../3rdparty/libtorch/share/cmake/Caffe2/public/mkldnn.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/../../../../3rdparty/libtorch/share/cmake/Caffe2/public/threads.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/../../../../3rdparty/libtorch/share/cmake/Caffe2/public/utils.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/../../../../3rdparty/libtorch/share/cmake/Caffe2/Modules_CUDA_fix/FindCUDA.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/../../../../3rdparty/libtorch/share/cmake/Caffe2/Modules_CUDA_fix/FindCUDNN.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/../../../../3rdparty/libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/CMakeInitializeConfigs.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/../../../../3rdparty/libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/../../../../3rdparty/libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindPackageHandleStandardArgs.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/../../../../3rdparty/libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindPackageMessage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/../../../../3rdparty/libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA/select_compute_arch.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\3rdparty\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/../../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/../../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/../../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/../../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/detect_cuda_compute_capabilities.cpp">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+		<Unit filename="/home/dl/Project/ssd.pytorch/ssd.libtorch/libtorch-SSD/cmake-build-debug/detect_cuda_version.cc">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
